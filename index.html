@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+    <title>[NAME] — Independent Web Designer and Developer</title>
+    <meta name="description" content="Independent web designer and developer. I design and build business websites, online stores, landing pages and web applications with a point of view." />
+    <meta name="theme-color" content="#0A0A0A" />
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="[NAME] Studio" />
+    <meta property="og:title" content="[NAME] — Independent Web Designer and Developer" />
+    <meta property="og:description" content="Independent web designer and developer. Websites with a point of view." />
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="[NAME] — Independent Web Designer and Developer" />
+    <meta name="twitter:description" content="Independent web designer and developer. Websites with a point of view." />
+
+    <!-- Fonts: Haas Grotesk stack, Instrument Sans, Space Grotesk, Inter, Plus Jakarta Sans -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Alex+Brush&family=Caveat:wght@400;600;700&family=Instrument+Sans:wght@400;500;600;700&family=Instrument+Serif:ital@0;1&family=Inter:wght@400;500;600;700;800&family=Plus+Jakarta+Sans:wght@500;600;700;800&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet" />
+
+    <!-- Motion detection inline script (PRD §25.10) -->
+    <script>
+      (function() {
+        try {
+          const prefersReduced = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+          if (!prefersReduced) {
+            document.documentElement.classList.add('js-motion');
+            // Safety timeout to ensure content is visible even if motion setup is delayed
+            setTimeout(function() {
+              document.documentElement.classList.remove('js-motion-pending');
+            }, 2500);
+          }
+        } catch(e) {}
+      })();
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <div id="transition-portal"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>

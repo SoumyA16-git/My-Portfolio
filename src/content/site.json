@@ -1,0 +1,225 @@
+{
+  "name": "Soumya Ranjan Das",
+  "studioName": null,
+  "role": "Independent web designer and developer",
+  "email": "hello@[DOMAIN].com",
+  "phone": "+91 98765 43210",
+  "whatsapp": "919876543210",
+  "domain": "[DOMAIN].com",
+  "location": {
+    "city": "[CITY]",
+    "country": "India",
+    "timezone": "Asia/Kolkata",
+    "showCity": true
+  },
+  "availability": {
+    "status": "available",
+    "label": "Available for select projects",
+    "bookingFrom": "October 2026",
+    "replyTime": "2 business days"
+  },
+  "socials": [
+    {
+      "network": "LinkedIn",
+      "url": "https://linkedin.com"
+    },
+    {
+      "network": "GitHub",
+      "url": "https://github.com"
+    },
+    {
+      "network": "Instagram",
+      "url": "https://instagram.com"
+    }
+  ],
+  "resume": {
+    "label": "Download résumé (PDF)",
+    "url": "/assets/resume.pdf"
+  },
+  "hero": {
+    "headline": [
+      "WEBSITES",
+      "WITH A",
+      "POINT OF",
+      "VIEW."
+    ],
+    "descriptor": "Independent web designer and developer. I design and build websites for businesses, brands and creatives.",
+    "metadata": [
+      "Web development, digital design",
+      "2026",
+      "India"
+    ]
+  },
+  "philosophy": {
+    "statement": "A website is the first thing a client's customer touches. It should feel considered before anyone reads a word.",
+    "design": [
+      "Hierarchy before decoration: type, proportion and negative space carry the voice.",
+      "Composed separately for phone, tablet and desktop, never just shrunk.",
+      "Motion used strictly to explain state and answer user action, never to delay reading."
+    ],
+    "code": [
+      "Written in clean, semantic TypeScript and React with strict accessibility floors.",
+      "Hardware-accelerated transforms and zero layout thrashing for 60fps interaction.",
+      "Static-first architecture with ruthless asset budgets so pages load fast anywhere."
+    ]
+  },
+  "capabilities": [
+    {
+      "discipline": "Web",
+      "items": [
+        {
+          "name": "Business websites",
+          "tag": "business-websites",
+          "description": "Clear, fast sites that explain what you do and make it easy to get in touch."
+        },
+        {
+          "name": "E-commerce",
+          "tag": "e-commerce",
+          "description": "Stores with considered product pages and a checkout that stays out of the way."
+        },
+        {
+          "name": "Landing pages",
+          "tag": "landing-pages",
+          "description": "Single-purpose pages for launches, campaigns and focused service offerings."
+        },
+        {
+          "name": "Custom web applications",
+          "tag": "web-applications",
+          "description": "Interactive interfaces for tools, internal workflows and client portals."
+        }
+      ]
+    },
+    {
+      "discipline": "Design",
+      "items": [
+        {
+          "name": "Interface direction",
+          "tag": "interface-direction",
+          "description": "Layout, hierarchy and typography set at real content lengths on real screens."
+        },
+        {
+          "name": "Visual systems",
+          "tag": "visual-systems",
+          "description": "Colour, type and spacing rules that keep a digital brand consistent as it grows."
+        },
+        {
+          "name": "Responsive interfaces",
+          "tag": "responsive-interfaces",
+          "description": "Deliberately composed layouts tailored specifically for touch and fine pointers."
+        },
+        {
+          "name": "Interaction and motion",
+          "tag": "interaction-motion",
+          "description": "Physical, purposeful motion designed to guide attention and enrich feedback."
+        }
+      ]
+    },
+    {
+      "discipline": "Development",
+      "items": [
+        {
+          "name": "Front-end build",
+          "tag": "front-end-build",
+          "description": "Semantic, accessible React and TypeScript, built to be easily maintained."
+        },
+        {
+          "name": "Animation",
+          "tag": "animation",
+          "description": "GSAP-based motion systems, always with complete reduced-motion support."
+        },
+        {
+          "name": "CMS and data integration",
+          "tag": "data-integration",
+          "description": "Connecting content, products and forms to headless backends and services."
+        },
+        {
+          "name": "Performance optimisation",
+          "tag": "performance",
+          "description": "Strict asset and script budgets so pages load in under 2 seconds on 4G."
+        }
+      ]
+    }
+  ],
+  "process": [
+    {
+      "number": "01",
+      "title": "Discover",
+      "description": "We talk through the business, the audience, and what the website has to achieve.",
+      "youGet": "A clear, written project brief and milestone outline."
+    },
+    {
+      "number": "02",
+      "title": "Define",
+      "description": "Scope, information architecture and core messaging are agreed before design begins.",
+      "youGet": "Complete sitemap, content model, and technical roadmap."
+    },
+    {
+      "number": "03",
+      "title": "Design",
+      "description": "Key pages are designed at real content lengths, specifically for desktop and mobile.",
+      "youGet": "Art-directed interactive designs ready for build."
+    },
+    {
+      "number": "04",
+      "title": "Develop",
+      "description": "The site is built in code with production-grade typography, motion, and responsiveness.",
+      "youGet": "A private staging link to test and review."
+    },
+    {
+      "number": "05",
+      "title": "Refine",
+      "description": "Rigorous testing across real devices, tuning performance, contrast, and micro-interactions.",
+      "youGet": "A polished, accessibility-verified, fast build."
+    },
+    {
+      "number": "06",
+      "title": "Launch",
+      "description": "Domain, hosting, analytics and SEO setup, followed by a complete walkthrough.",
+      "youGet": "The live production website and full handover documentation."
+    }
+  ],
+  "about": {
+    "lead": "I design and build websites myself, so what gets drawn is what ships. The decisions made in the layout are the ones that arrive in the browser.",
+    "paragraphs": [
+      "I work on a small number of projects at a time. That keeps me in the details: how a headline breaks on a phone, how a page loads on a slow connection, what happens when a customer has a very long name or very little patience.",
+      "Most of my work is business websites, online stores, landing pages and custom web applications. I am based in India, and collaborate with clients worldwide across multiple time zones."
+    ],
+    "howIWork": [
+      "Direct: One point of contact and written updates at agreed intervals.",
+      "Careful: Real content, real devices, tested before you see it.",
+      "Ready to hand over: You receive clean files, documentation, and a complete walkthrough."
+    ],
+    "tools": [
+      "Figma",
+      "React",
+      "TypeScript",
+      "Tailwind CSS",
+      "GSAP",
+      "Three.js",
+      "Vercel"
+    ],
+    "portrait": {
+      "src": "about/portrait",
+      "alt": "[NAME], studio portrait in natural light"
+    }
+  },
+  "contact": {
+    "statement": [
+      "TELL ME",
+      "WHAT YOU'RE",
+      "MAKING."
+    ],
+    "projectTypes": [
+      "A new website",
+      "A redesign",
+      "An online store",
+      "A web application",
+      "Something else"
+    ]
+  },
+  "seo": {
+    "titleTemplate": "%s | [NAME]",
+    "defaultDescription": "Independent web designer and developer. I design and build business websites, online stores, landing pages and web applications.",
+    "ogImage": "og/default.png"
+  }
+}
