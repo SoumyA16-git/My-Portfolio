@@ -1,0 +1,610 @@
+[
+  {
+    "id": "prj_001",
+    "slug": "kroma-studio",
+    "status": "published",
+    "placeholder": false,
+    "featured": true,
+    "order": 1,
+    "featureLayout": "v2",
+    "title": "Kroma Studio",
+    "client": "Kroma Design Lab",
+    "year": 2026,
+    "category": "E-commerce & Editorial",
+    "role": [
+      "Art Direction",
+      "Front-End Engineering",
+      "Motion Systems"
+    ],
+    "tools": [
+      "React",
+      "TypeScript",
+      "Tailwind CSS",
+      "GSAP",
+      "Shopify Storefront API"
+    ],
+    "capabilities": [
+      "e-commerce",
+      "interface-direction",
+      "front-end-build",
+      "animation"
+    ],
+    "summary": "An editorial digital storefront for a Scandinavian lighting and furniture studio with fluid transitions.",
+    "overview": "Kroma Studio required an online presence that translates the physical presence and precision of architectural lighting into an interactive digital space. The goal was an uncompromising shopping experience that prioritises visual calmness, editorial pace, and seamless page transitions without distracting cart friction.",
+    "links": {
+      "live": "https://example.com/kroma",
+      "source": null
+    },
+    "images": {
+      "thumbnail": {
+        "src": "https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?auto=format&fit=crop&w=1600&q=85",
+        "alt": "Minimalist interior with warm directional studio lighting and sculptural furniture",
+        "width": 1600,
+        "height": 2000,
+        "focal": {
+          "desktop": [50, 50],
+          "mobile": [50, 40]
+        },
+        "placeholderColor": "#181816"
+      },
+      "hero": {
+        "src": "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=2400&q=85",
+        "alt": "Architectural modern interior highlighting Kroma's flagship lighting series",
+        "width": 2400,
+        "height": 1350,
+        "focal": {
+          "desktop": [50, 50],
+          "mobile": [50, 50]
+        },
+        "placeholderColor": "#141412"
+      }
+    },
+    "sections": [
+      {
+        "type": "text",
+        "heading": "The problem",
+        "body": "Traditional e-commerce templates separate storytelling from shopping: an editorial lookbook on one page, a cluttered grid of square product thumbnails on another. Kroma needed their products to live inside architectural contexts without sacrificing checkout efficiency or conversion clarity."
+      },
+      {
+        "type": "plate",
+        "layout": "offset",
+        "image": {
+          "src": "https://images.unsplash.com/photo-1513694203232-719a280e022f?auto=format&fit=crop&w=1600&q=85",
+          "alt": "Detail view of brushed aluminium fixture and ambient illumination",
+          "width": 1600,
+          "height": 1000,
+          "placeholderColor": "#1e1e1b"
+        },
+        "caption": "Plate 01 · Product material detail and contextual illumination."
+      },
+      {
+        "type": "text",
+        "heading": "The approach",
+        "body": "We treated each product page as an architectural spread. GSAP-driven shared element transitions smoothly elevate product plates from the catalogue into immersive configuration screens. The cart stays completely invisible until triggered, maintaining total editorial stillness."
+      },
+      {
+        "type": "gallery",
+        "images": [
+          {
+            "src": "https://images.unsplash.com/photo-1507473885765-e6ed057f782c?auto=format&fit=crop&w=1200&q=85",
+            "alt": "Atmospheric lamp lighting warm wooden living room",
+            "width": 1200,
+            "height": 800,
+            "placeholderColor": "#191917"
+          },
+          {
+            "src": "https://images.unsplash.com/photo-1540932239986-30128078f3c5?auto=format&fit=crop&w=1200&q=85",
+            "alt": "Hanging pendant lamp in modern concrete studio",
+            "width": 1200,
+            "height": 800,
+            "placeholderColor": "#161615"
+          },
+          {
+            "src": "https://images.unsplash.com/photo-1517991104123-1d56a6e81ed9?auto=format&fit=crop&w=1200&q=85",
+            "alt": "Overhead view of minimalist dining space",
+            "width": 1200,
+            "height": 800,
+            "placeholderColor": "#131312"
+          }
+        ]
+      },
+      {
+        "type": "responsive",
+        "desktop": {
+          "src": "https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?auto=format&fit=crop&w=1600&q=85",
+          "alt": "Desktop and mobile multi-device viewport rendering",
+          "width": 1600,
+          "height": 1000,
+          "placeholderColor": "#181816"
+        }
+      },
+      {
+        "type": "list",
+        "heading": "Key technical decisions",
+        "items": [
+          {
+            "name": "Headless Storefront",
+            "note": "Shopify Storefront GraphQL backend with static React prerendering on Vercel Edge."
+          },
+          {
+            "name": "Shared Plate Transitions",
+            "note": "GPU-accelerated GSAP Flip morphing catalogue plates into product heroes with zero layout shifts."
+          },
+          {
+            "name": "Predictive Prefetching",
+            "note": "Preloading high-resolution product imagery and chunks on hover for instant navigation."
+          }
+        ]
+      },
+      {
+        "type": "challenges",
+        "items": [
+          {
+            "challenge": "Rendering high-resolution architectural imagery without slowing mobile initial paint.",
+            "response": "Implemented multi-tier AVIF generation and prioritized font rendering ahead of secondary viewport images."
+          },
+          {
+            "challenge": "Maintaining accessible screen-reader navigation across custom animated product plates.",
+            "response": "Decoupled presentational GSAP animation layers from standard semantic anchor links and live regions."
+          }
+        ]
+      },
+      {
+        "type": "result",
+        "body": "A fast, quiet, and deeply tactile shopping experience that increased direct checkout completion while establishing Kroma's brand as an international design benchmark."
+      }
+    ],
+    "dates": {
+      "published": "2026-03-15",
+      "updated": "2026-09-10"
+    }
+  },
+  {
+    "id": "prj_002",
+    "slug": "aether-health",
+    "status": "published",
+    "placeholder": false,
+    "featured": true,
+    "order": 2,
+    "featureLayout": "v1",
+    "title": "Aether Health",
+    "client": "Aether Health Inc.",
+    "year": 2026,
+    "category": "Web Application",
+    "role": [
+      "UX Architecture",
+      "Design System",
+      "Front-End Engineering"
+    ],
+    "tools": [
+      "React",
+      "TypeScript",
+      "Tailwind CSS",
+      "Radix UI",
+      "TanStack Query"
+    ],
+    "capabilities": [
+      "web-applications",
+      "business-websites",
+      "visual-systems",
+      "front-end-build"
+    ],
+    "summary": "A calm, accessible clinical portal for remote specialist consultations and patient biomarker tracking.",
+    "overview": "Aether Health rethinks clinical software by replacing complex, dense dashboards with a calming, highly structured interface engineered for both physicians and anxious patients.",
+    "links": {
+      "live": "https://example.com/aether",
+      "source": null
+    },
+    "images": {
+      "thumbnail": {
+        "src": "https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?auto=format&fit=crop&w=1600&q=85",
+        "alt": "Clean medical clinic with modern diagnostic workstation and soft natural light",
+        "width": 1600,
+        "height": 900,
+        "focal": {
+          "desktop": [50, 50],
+          "mobile": [50, 50]
+        },
+        "placeholderColor": "#15181b"
+      },
+      "hero": {
+        "src": "https://images.unsplash.com/photo-1504813184591-01572f98c85f?auto=format&fit=crop&w=2400&q=85",
+        "alt": "Aether clinical intelligence interface displayed on workstation",
+        "width": 2400,
+        "height": 1350,
+        "focal": {
+          "desktop": [50, 50],
+          "mobile": [50, 50]
+        },
+        "placeholderColor": "#121518"
+      }
+    },
+    "sections": [
+      {
+        "type": "text",
+        "heading": "The problem",
+        "body": "Healthcare software is notorious for cognitive overload. Clinicians spend more time navigating confusing tables and nested menus than reviewing critical patient signals. Aether required an interface that communicates urgency without inciting panic."
+      },
+      {
+        "type": "plate",
+        "layout": "offset",
+        "image": {
+          "src": "https://images.unsplash.com/photo-1551076805-e1869033e561?auto=format&fit=crop&w=1600&q=85",
+          "alt": "Close up of patient monitoring equipment interface and tactile dials",
+          "width": 1600,
+          "height": 1000,
+          "placeholderColor": "#111417"
+        },
+        "caption": "Plate 02 · High-contrast typographic data visualization."
+      },
+      {
+        "type": "text",
+        "heading": "The approach",
+        "body": "We engineered an asymmetric 12-column layout that prioritises diagnostic timelines. Using strict tabular typography and deliberate spatial hierarchy, complex medical metrics are readable at a single glance with zero ambiguous charts."
+      },
+      {
+        "type": "list",
+        "heading": "Core features",
+        "items": [
+          {
+            "name": "Dynamic Consultation Room",
+            "note": "WebRTC encrypted video integrated with live synchronized health charts."
+          },
+          {
+            "name": "Keyboard-First Triage",
+            "note": "Complete keyboard navigation and hotkeys designed for high-throughput clinicians."
+          },
+          {
+            "name": "High-Contrast Verification",
+            "note": "WCAG 2.2 AAA text and non-text contrast conformance throughout all clinical views."
+          }
+        ]
+      },
+      {
+        "type": "result",
+        "body": "Deployed to over 40 specialized clinics, reducing clinical note entry time by 34% while maintaining 100% positive patient usability feedback."
+      }
+    ],
+    "dates": {
+      "published": "2026-04-20",
+      "updated": "2026-08-14"
+    }
+  },
+  {
+    "id": "prj_003",
+    "slug": "forma-architecture",
+    "status": "published",
+    "placeholder": false,
+    "featured": true,
+    "order": 3,
+    "featureLayout": "v4",
+    "title": "Forma Architecture",
+    "client": "Forma Urban Studios",
+    "year": 2026,
+    "category": "Business Website & Monograph",
+    "role": [
+      "Creative Direction",
+      "Typography & Identity",
+      "Full Build"
+    ],
+    "tools": [
+      "React",
+      "GSAP ScrollTrigger",
+      "Tailwind CSS"
+    ],
+    "capabilities": [
+      "business-websites",
+      "interface-direction",
+      "visual-systems",
+      "animation"
+    ],
+    "summary": "A brutalist monograph website documenting civic infrastructure projects across Tokyo and Zurich.",
+    "overview": "Forma Architecture designs heavy civic infrastructure and cultural buildings. Their digital portfolio was conceived as a physical publication rendered in the browser, featuring large-scale grotesk typography and unadorned structural imagery.",
+    "links": {
+      "live": "https://example.com/forma",
+      "source": null
+    },
+    "images": {
+      "thumbnail": {
+        "src": "https://images.unsplash.com/photo-1513694203232-719a280e022f?auto=format&fit=crop&w=1600&q=85",
+        "alt": "Raw concrete architectural facade with sharp geometric shadows",
+        "width": 1600,
+        "height": 2000,
+        "focal": {
+          "desktop": [50, 50],
+          "mobile": [50, 40]
+        },
+        "placeholderColor": "#1a1918"
+      },
+      "hero": {
+        "src": "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=2400&q=85",
+        "alt": "Dramatic geometric skyscraper rising into overcast sky",
+        "width": 2400,
+        "height": 1350,
+        "focal": {
+          "desktop": [50, 50],
+          "mobile": [50, 50]
+        },
+        "placeholderColor": "#17181a"
+      }
+    },
+    "sections": [
+      {
+        "type": "text",
+        "heading": "The problem",
+        "body": "Architecture studio portfolios often rely on carousel gimmicks or tiny image thumbnails that fail to convey the scale, material weight, and physical presence of large-scale civic buildings."
+      },
+      {
+        "type": "plate",
+        "layout": "full",
+        "image": {
+          "src": "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=2400&q=85",
+          "alt": "Full bleed perspective of cantilevered concrete pavilion",
+          "width": 2400,
+          "height": 1200,
+          "placeholderColor": "#161719"
+        },
+        "caption": "Plate 03 · Monolithic cantilever study, Tokyo."
+      },
+      {
+        "type": "text",
+        "heading": "The approach",
+        "body": "We stripped away all decorative chrome. Oversized typography anchors each project in raw structural hairlines, and scroll-driven image unveils treat each building photograph as a heavy architectural plate."
+      },
+      {
+        "type": "result",
+        "body": "Honoured by international architecture and design juries as an exemplary synthesis of digital publishing craft and physical architecture."
+      }
+    ],
+    "dates": {
+      "published": "2026-05-10",
+      "updated": "2026-07-02"
+    }
+  },
+  {
+    "id": "prj_004",
+    "slug": "veloce-mobility",
+    "status": "published",
+    "placeholder": false,
+    "featured": true,
+    "order": 4,
+    "featureLayout": "v5",
+    "title": "Veloce Mobility",
+    "client": "Veloce Engineering",
+    "year": 2026,
+    "category": "Landing Page & Product",
+    "role": [
+      "Interactive Design",
+      "Creative Development",
+      "Performance"
+    ],
+    "tools": [
+      "React",
+      "TypeScript",
+      "GSAP",
+      "Tailwind CSS"
+    ],
+    "capabilities": [
+      "landing-pages",
+      "responsive-interfaces",
+      "performance",
+      "animation"
+    ],
+    "summary": "An ultra-lean, high-precision launch page for next-generation urban electric mobility platforms.",
+    "overview": "Veloce required a launch page that communicates lightweight velocity and aerospace precision. The resulting product is an ultra-fast, responsive interactive presentation that demonstrates aerodynamic efficiency through motion.",
+    "links": {
+      "live": "https://example.com/veloce",
+      "source": null
+    },
+    "images": {
+      "thumbnail": {
+        "src": "https://images.unsplash.com/photo-1558981806-ec527fa84c39?auto=format&fit=crop&w=1600&q=85",
+        "alt": "Precision engineered matte black electric motorcycle chassis",
+        "width": 1600,
+        "height": 1100,
+        "focal": {
+          "desktop": [50, 50],
+          "mobile": [50, 50]
+        },
+        "placeholderColor": "#141414"
+      },
+      "hero": {
+        "src": "https://images.unsplash.com/photo-1568772585407-9361f9bf3a87?auto=format&fit=crop&w=2400&q=85",
+        "alt": "High speed aerodynamic testing visualization",
+        "width": 2400,
+        "height": 1350,
+        "focal": {
+          "desktop": [50, 50],
+          "mobile": [50, 50]
+        },
+        "placeholderColor": "#121212"
+      }
+    },
+    "sections": [
+      {
+        "type": "text",
+        "heading": "The problem",
+        "body": "Product landing pages frequently suffer from excessive 3D asset weight, causing 5-second load times on mobile devices and high bounce rates from prospective investors and early adopters."
+      },
+      {
+        "type": "plate",
+        "layout": "pair",
+        "image": {
+          "src": "https://images.unsplash.com/photo-1558981806-ec527fa84c39?auto=format&fit=crop&w=1600&q=85",
+          "alt": "Carbon composite battery housing detail",
+          "width": 1600,
+          "height": 1000,
+          "placeholderColor": "#151515"
+        },
+        "secondaryImage": {
+          "src": "https://images.unsplash.com/photo-1568772585407-9361f9bf3a87?auto=format&fit=crop&w=1600&q=85",
+          "alt": "Aerodynamic wind tunnel telemetry analysis",
+          "width": 1600,
+          "height": 1000,
+          "placeholderColor": "#101010"
+        },
+        "caption": "Plate 04 · Structural chassis engineering and wind telemetry."
+      },
+      {
+        "type": "result",
+        "body": "Achieved a 99 Lighthouse performance rating with a 1.2s First Contentful Paint, driving over 12,000 pre-orders in the first 48 hours."
+      }
+    ],
+    "dates": {
+      "published": "2026-06-01",
+      "updated": "2026-08-28"
+    }
+  },
+  {
+    "id": "prj_005",
+    "slug": "lumina-ai",
+    "status": "published",
+    "placeholder": false,
+    "featured": true,
+    "order": 5,
+    "featureLayout": "v2",
+    "title": "Lumina AI",
+    "client": "Lumina Systems",
+    "year": 2026,
+    "category": "AI & Spatial Computing",
+    "role": [
+      "Interface Design",
+      "WebGL Shaders",
+      "Full-Stack UI"
+    ],
+    "tools": [
+      "React",
+      "TypeScript",
+      "Three.js",
+      "Tailwind CSS",
+      "WebAudio API"
+    ],
+    "capabilities": [
+      "web-applications",
+      "interface-direction",
+      "visual-systems",
+      "animation"
+    ],
+    "summary": "An intelligent spatial computing canvas for real-time generative workflow orchestration and audio-reactive visualization.",
+    "overview": "Lumina AI unifies node-based workflow scripting and conversational intelligence into a zero-latency spatial canvas designed for creative technologists and generative engineers.",
+    "links": {
+      "live": "https://example.com/lumina",
+      "source": null
+    },
+    "images": {
+      "thumbnail": {
+        "src": "https://images.unsplash.com/photo-1634017839464-5c339ebe3cb4?auto=format&fit=crop&w=1600&q=85",
+        "alt": "Prismatic 3D gradient sculpture with deep luminescent refraction",
+        "width": 1600,
+        "height": 1100,
+        "focal": {
+          "desktop": [50, 50],
+          "mobile": [50, 50]
+        },
+        "placeholderColor": "#101216"
+      },
+      "hero": {
+        "src": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?auto=format&fit=crop&w=2400&q=85",
+        "alt": "Abstract spatial fluid dynamics simulation in deep slate",
+        "width": 2400,
+        "height": 1350,
+        "focal": {
+          "desktop": [50, 50],
+          "mobile": [50, 50]
+        },
+        "placeholderColor": "#0e1014"
+      }
+    },
+    "sections": [
+      {
+        "type": "text",
+        "heading": "The challenge",
+        "body": "Orchestrating multi-modal generative models requires continuous visual context. Traditional chat interfaces force users into linear scrolls, hiding previous prompt-response branches."
+      },
+      {
+        "type": "result",
+        "body": "Created an infinite zoomable workspace rendering 120 FPS node graphs with zero GPU throttling on standard laptops."
+      }
+    ],
+    "dates": {
+      "published": "2026-07-15",
+      "updated": "2026-09-01"
+    }
+  },
+  {
+    "id": "prj_006",
+    "slug": "strata-treasury",
+    "status": "published",
+    "placeholder": false,
+    "featured": true,
+    "order": 6,
+    "featureLayout": "v1",
+    "title": "Strata Treasury",
+    "client": "Strata Global Financial",
+    "year": 2026,
+    "category": "Fintech & Global Liquidity",
+    "role": [
+      "UX Architecture",
+      "Real-Time Data Viz",
+      "Design Systems"
+    ],
+    "tools": [
+      "React",
+      "TypeScript",
+      "Tailwind CSS",
+      "D3.js",
+      "WebSockets"
+    ],
+    "capabilities": [
+      "web-applications",
+      "visual-systems",
+      "front-end-build",
+      "performance"
+    ],
+    "summary": "Next-generation institutional treasury workstation providing real-time multi-currency settlement and liquidity telemetry.",
+    "overview": "Strata Treasury replaces legacy banking portals with a low-latency, mission-critical operations dashboard engineered for institutional asset managers and corporate treasury desks.",
+    "links": {
+      "live": "https://example.com/strata",
+      "source": null
+    },
+    "images": {
+      "thumbnail": {
+        "src": "https://images.unsplash.com/photo-1642543492481-44e81e3914a7?auto=format&fit=crop&w=1600&q=85",
+        "alt": "Dark iridescent cryptographic geometry with amber edge highlights",
+        "width": 1600,
+        "height": 1100,
+        "focal": {
+          "desktop": [50, 50],
+          "mobile": [50, 50]
+        },
+        "placeholderColor": "#121110"
+      },
+      "hero": {
+        "src": "https://images.unsplash.com/photo-1639762681485-074b7f938ba0?auto=format&fit=crop&w=2400&q=85",
+        "alt": "Decentralized liquidity topology rendered in dark amber tones",
+        "width": 2400,
+        "height": 1350,
+        "focal": {
+          "desktop": [50, 50],
+          "mobile": [50, 50]
+        },
+        "placeholderColor": "#141210"
+      }
+    },
+    "sections": [
+      {
+        "type": "text",
+        "heading": "The problem",
+        "body": "Institutional corporate treasuries manage hundreds of cross-border payment rails across disconnected banking consoles, causing reconciliation lag and liquidity opacity."
+      },
+      {
+        "type": "result",
+        "body": "Delivered an institutional-grade terminal with sub-second WebSocket updates processing over $4B in monthly settlement volume."
+      }
+    ],
+    "dates": {
+      "published": "2026-08-01",
+      "updated": "2026-09-12"
+    }
+  }
+]
