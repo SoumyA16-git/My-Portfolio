@@ -1,0 +1,365 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    /* Color Tokens (Dark default - PRD §21.1) */
+    --color-bg: #0A0A0A;
+    --color-surface: #111111;
+    --color-surface-2: #181817;
+    --color-fg: #F3F1EC;
+    --color-fg-secondary: #A9A7A1;
+    --color-fg-muted: #85837E;
+    --color-border: rgba(243, 241, 236, 0.14);
+    --color-border-strong: rgba(243, 241, 236, 0.32);
+    --color-accent: #5A6CFF;
+    --color-accent-hover: #7A89FF;
+    --color-focus: #8C99FF;
+    --color-selection-bg: #5A6CFF;
+    --color-selection-fg: #0A0A0A;
+    --color-error: #FF6B5E;
+    --color-success: #8FD9A8;
+    --color-scrim: rgba(10, 10, 10, 0.72);
+
+    /* Radii (PRD §19.1) */
+    --radius-plate: 4px;
+    --radius-field: 4px;
+    --radius-pill: 999px;
+
+    /* Spacing (4px base - PRD §23) */
+    --space-1: 4px;
+    --space-2: 8px;
+    --space-3: 12px;
+    --space-4: 16px;
+    --space-5: 24px;
+    --space-6: 32px;
+    --space-7: 48px;
+    --space-8: 64px;
+    --space-9: 96px;
+    --space-10: 128px;
+    --space-11: 192px;
+    --space-12: 256px;
+    --section-space: clamp(80px, 10vw, 160px);
+    --section-padding-y: clamp(3.5rem, 5.5vw, 6.5rem);
+    --section-heading-size: clamp(2.25rem, 4vw, 3.75rem);
+
+    /* Fonts */
+    --font-sans: 'Instrument Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    --font-serif: 'Instrument Serif', 'Newsreader', Georgia, 'Times New Roman', serif;
+    --font-haas: 'Haas Grot Text R Web', 'Haas Grot Text R', 'Neue Haas Grotesk Text Pro', 'Neue Haas Grotesk Display Pro', 'Helvetica Neue', Arial, sans-serif;
+    --font-script: 'Alex Brush', 'Caveat', cursive;
+
+    /* Easings & Durations (PRD §25.4) */
+    --ease-out: cubic-bezier(0.16, 1, 0.3, 1);
+    --ease-inout: cubic-bezier(0.76, 0, 0.24, 1);
+    --ease-standard: cubic-bezier(0.25, 1, 0.5, 1);
+
+    --dur-instant: 120ms;
+    --dur-fast: 220ms;
+    --dur-base: 400ms;
+    --dur-slow: 700ms;
+    --dur-scene: 1100ms;
+
+    /* Measures */
+    --measure-text: 62ch;
+    --measure-lead: 34ch;
+    --measure-statement: 24em;
+
+    /* Grid Defaults */
+    --cols: 4;
+    --gutter: 12px;
+    --margin: 20px;
+  }
+
+  @media (min-width: 768px) {
+    :root {
+      --cols: 8;
+      --gutter: 20px;
+      --margin: 32px;
+    }
+  }
+
+  @media (min-width: 1024px) {
+    :root {
+      --cols: 12;
+      --gutter: 20px;
+      --margin: clamp(32px, 3vw, 40px);
+    }
+  }
+
+  @media (min-width: 1440px) {
+    :root {
+      --cols: 12;
+      --gutter: 24px;
+      --margin: 48px;
+    }
+  }
+
+  /* Paper Theme Inversion (PRD §21.1) */
+  [data-theme="paper"],
+  .theme-paper {
+    --color-bg: #F3F1EC;
+    --color-surface: #EAE7E0;
+    --color-surface-2: #E1DDD4;
+    --color-fg: #0A0A0A;
+    --color-fg-secondary: #4A4945;
+    --color-fg-muted: #6B6A65;
+    --color-border: rgba(10, 10, 10, 0.14);
+    --color-border-strong: rgba(10, 10, 10, 0.40);
+    --color-accent: #1F2FD6;
+    --color-accent-hover: #0F1FB0;
+    --color-focus: #1F2FD6;
+    --color-error: #B3261E;
+    --color-selection-bg: #1F2FD6;
+    --color-selection-fg: #F3F1EC;
+  }
+
+  *, *::before, *::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+
+  html {
+    background-color: var(--color-bg);
+    color: var(--color-fg);
+    font-family: var(--font-sans);
+    font-feature-settings: "cv02", "cv03", "cv04", "cv11";
+    font-synthesis: none;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
+    scroll-padding-top: 96px;
+    overflow-x: clip;
+    max-width: 100%;
+    width: 100%;
+  }
+
+  html.lenis, html.lenis body {
+    height: auto;
+  }
+
+  .lenis.lenis-smooth {
+    scroll-behavior: auto !important;
+  }
+
+  .lenis.lenis-smooth [data-lenis-prevent] {
+    overscroll-behavior: contain;
+  }
+
+  .lenis.lenis-stopped {
+    overflow: hidden;
+  }
+
+  .lenis.lenis-scrolling iframe {
+    pointer-events: none;
+  }
+
+  body {
+    background-color: var(--color-bg);
+    color: var(--color-fg);
+    overflow-x: clip;
+    max-width: 100%;
+    width: 100%;
+    min-height: 100vh;
+    min-height: 100svh;
+  }
+
+  #root {
+    overflow-x: clip;
+    max-width: 100%;
+    width: 100%;
+  }
+
+  ::selection {
+    background-color: var(--color-selection-bg);
+    color: var(--color-selection-fg);
+  }
+
+  /* Focus Indicator System (PRD §19.1, §29.2) */
+  :focus-visible {
+    outline: 2px solid var(--color-focus);
+    outline-offset: 3px;
+  }
+
+  a, button {
+    color: inherit;
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+  /* Tabular Figures (PRD §20.3) */
+  .tnum {
+    font-variant-numeric: tabular-nums;
+  }
+
+  /* Serif Statement Class */
+  .font-serif {
+    font-family: var(--font-serif);
+    font-optical-sizing: auto;
+  }
+}
+
+/* Custom Utilities for Studio Typography & Layout */
+@utility studio-grid {
+  display: grid;
+  grid-template-columns: repeat(var(--cols), minmax(0, 1fr));
+  column-gap: var(--gutter);
+  padding-inline: var(--margin);
+  max-width: 1696px;
+  margin-inline: auto;
+  width: 100%;
+}
+
+@utility font-haas {
+  font-family: var(--font-haas);
+  font-feature-settings: "cv02", "cv03", "cv04", "cv11";
+}
+
+@utility text-display {
+  font-family: var(--font-sans);
+  font-weight: 600;
+  line-height: 0.94;
+  letter-spacing: -0.04em;
+}
+
+@utility text-h1 {
+  font-family: var(--font-sans);
+  font-weight: 600;
+  line-height: 0.96;
+  letter-spacing: -0.035em;
+}
+
+@utility text-h2 {
+  font-family: var(--font-sans);
+  font-weight: 600;
+  line-height: 1.02;
+  letter-spacing: -0.03em;
+}
+
+@utility text-h3 {
+  font-family: var(--font-sans);
+  font-weight: 500;
+  line-height: 1.15;
+  letter-spacing: -0.015em;
+}
+
+@utility text-meta {
+  font-family: var(--font-sans);
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 1.3;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  font-variant-numeric: tabular-nums;
+}
+
+/* Plate outline rule (§19.2) */
+.plate-outline {
+  outline: 1px solid rgba(243, 241, 236, 0.08);
+  outline-offset: -1px;
+}
+
+[data-theme="paper"] .plate-outline {
+  outline: 1px solid rgba(10, 10, 10, 0.08);
+}
+
+/* Underline animated hover (§26.1) */
+.draw-underline {
+  background-image: linear-gradient(currentColor, currentColor);
+  background-position: 0% 100%;
+  background-repeat: no-repeat;
+  background-size: 0% 1px;
+  transition: background-size var(--dur-base) var(--ease-standard);
+}
+
+.draw-underline:hover {
+  background-size: 100% 1px;
+}
+
+/* Fade Slide In Keyframes & Animation Utilities */
+@keyframes fadeSlideIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-fade-slide-in-1 {
+  animation: fadeSlideIn 0.8s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+  animation-delay: 0.1s;
+  opacity: 0;
+}
+
+.animate-fade-slide-in-2 {
+  animation: fadeSlideIn 0.8s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+  animation-delay: 0.25s;
+  opacity: 0;
+}
+
+.animate-fade-slide-in-3 {
+  animation: fadeSlideIn 0.8s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+  animation-delay: 0.4s;
+  opacity: 0;
+}
+
+.animate-fade-slide-in-4 {
+  animation: fadeSlideIn 0.8s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+  animation-delay: 0.55s;
+  opacity: 0;
+}
+
+/* Accordion Expand / Collapse Animations */
+@keyframes accordion-down {
+  from {
+    height: 0;
+    opacity: 0;
+  }
+  to {
+    height: var(--radix-accordion-content-height);
+    opacity: 1;
+  }
+}
+
+@keyframes accordion-up {
+  from {
+    height: var(--radix-accordion-content-height);
+    opacity: 1;
+  }
+  to {
+    height: 0;
+    opacity: 0;
+  }
+}
+
+.animate-accordion-down {
+  animation: accordion-down 0.25s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.animate-accordion-up {
+  animation: accordion-up 0.2s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+/* Hide scrollbar completely while maintaining scroll functionality */
+.no-scrollbar::-webkit-scrollbar {
+  display: none !important;
+  width: 0 !important;
+  height: 0 !important;
+}
+.no-scrollbar {
+  -ms-overflow-style: none !important;
+  scrollbar-width: none !important;
+}
+
+/* Reduced Motion Safety Net (PRD §25.9) */
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}

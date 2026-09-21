@@ -1,0 +1,316 @@
+[
+  {
+    "id": "cert-1",
+    "title": "Full Stack Web Development",
+    "logo": "logo/Logo_University_of_Helsinki_fi.svg.webp",
+    "issuer": "University of Helsinki & Houston Inc.",
+    "issueDate": "",
+    "expiryDate": "",
+    "credentialId": "b8b47fbfe77ade8d81fb7cae78e6e55f",
+    "credentialUrl": "https://studies.cs.helsinki.fi/stats/api/certificate/fullstackopen/en/b8b47fbfe77ade8d81fb7cae78e6e55f",
+    "category": "Web Development",
+    "skills": [
+      "JavaScript",
+      "React",
+      "Node.js",
+      "Full Stack Web Development"
+    ],
+    "description": "Successfully completed the 7 ECTS online course with grade 5.",
+    "featured": true
+  },
+  {
+    "id": "cert-2",
+    "title": "Frontend Developer (React)",
+    "logo": "/logo/hackerrank-com-logo.png",
+    "issuer": "HackerRank",
+    "issueDate": "12 Sep, 2026",
+    "expiryDate": "",
+    "credentialId": "5947476ABA2D",
+    "credentialUrl": "https://www.hackerrank.com/certificates/5947476aba2d",
+    "category": "Frontend Development",
+    "skills": [
+      "React",
+      "CSS",
+      "JavaScript"
+    ],
+    "description": "Passed the HackerRank role certification test for Frontend Developer (React).",
+    "featured": true
+  },
+  {
+    "id": "cert-3",
+    "title": "SQL (Advanced)",
+    "logo": "/logo/hackerrank-com-logo.png",
+    "issuer": "HackerRank",
+    "issueDate": "12 Sep, 2026",
+    "expiryDate": "",
+    "credentialId": "B0A08B5F904B",
+    "credentialUrl": "https://www.hackerrank.com/certificates/b0a08b5f904b",
+    "category": "Database",
+    "skills": [
+      "SQL",
+      "Query Optimization",
+      "Data Modeling",
+      "Indexing",
+      "Window Functions",
+      "Pivots"
+    ],
+    "description": "Passed the HackerRank skill certification test for SQL (Advanced). It covers topics like query optimization, data modeling, indexing, window functions, and pivots.",
+    "featured": true
+  },
+  {
+    "id": "cert-4",
+    "title": "Software Engineer Intern",
+    "logo": "/logo/hackerrank-com-logo.png",
+    "issuer": "HackerRank",
+    "issueDate": "12 Sep, 2026",
+    "expiryDate": "",
+    "credentialId": "A1CF73E3921B",
+    "credentialUrl": "https://www.hackerrank.com/certificates/a1cf73e3921b",
+    "category": "Software Engineering",
+    "skills": [
+      "Problem Solving",
+      "SQL"
+    ],
+    "description": "Passed the HackerRank role certification test for Software Engineer Intern. It covers topics like Problem solving and SQL.",
+    "featured": true
+  },
+  {
+    "id": "cert-5",
+    "title": "Angular (Intermediate)",
+    "logo": "/logo/hackerrank-com-logo.png",
+    "issuer": "HackerRank",
+    "issueDate": "12 Sep, 2026",
+    "expiryDate": "",
+    "credentialId": "159DE4CB6ECE",
+    "credentialUrl": "https://www.hackerrank.com/certificates/159de4cb6ece",
+    "category": "Frontend Development",
+    "skills": [
+      "Angular",
+      "Routing",
+      "NgModules",
+      "Observables",
+      "Dependency Injections",
+      "APIs"
+    ],
+    "description": "Passed the HackerRank skill certification test for Angular (Intermediate). It covers topics like Routing, NgModules, Observables for data transmission and event handling, Dependency Injections, and APIs.",
+    "featured": true
+  },
+  {
+    "id": "cert-6",
+    "title": "JavaScript (Intermediate)",
+    "logo": "/logo/hackerrank-com-logo.png",
+    "issuer": "HackerRank",
+    "issueDate": "12 Sep, 2026",
+    "expiryDate": "",
+    "credentialId": "A0413B30171B",
+    "credentialUrl": "https://www.hackerrank.com/certificates/a0413b30171b",
+    "category": "Programming Languages",
+    "skills": [
+      "JavaScript",
+      "Design Patterns",
+      "Memory Management",
+      "Concurrency Model",
+      "Event Loops"
+    ],
+    "description": "HackerRank certification covering intermediate JavaScript concepts like design patterns, memory management, and event loops.",
+    "featured": true
+  },
+  {
+    "id": "cert-7",
+    "title": "Node.js (Intermediate)",
+    "logo": "/logo/hackerrank-com-logo.png",
+    "issuer": "HackerRank",
+    "issueDate": "12 Sep, 2026",
+    "expiryDate": "",
+    "credentialId": "686879257C3C",
+    "credentialUrl": "https://www.hackerrank.com/certificates/686879257c3c",
+    "category": "Backend Development",
+    "skills": [
+      "Node.js",
+      "Event-Driven Architecture",
+      "Concurrency"
+    ],
+    "description": "HackerRank certification covering event-driven architecture and concurrency in Node.js.",
+    "featured": true
+  },
+  {
+    "id": "cert-8",
+    "title": "Rest API (Intermediate)",
+    "logo": "/logo/hackerrank-com-logo.png",
+    "issuer": "HackerRank",
+    "issueDate": "12 Sep, 2026",
+    "expiryDate": "",
+    "credentialId": "37FF19227ADC",
+    "credentialUrl": "https://www.hackerrank.com/certificates/37ff19227adc",
+    "category": "Backend Development",
+    "skills": [
+      "REST API",
+      "Data Processing",
+      "Pagination",
+      "API Parameters"
+    ],
+    "description": "HackerRank certification covering API data retrieval and processing using parameters and pagination.",
+    "featured": true
+  },
+  {
+    "id": "cert-9",
+    "title": "CSS (Basic)",
+    "logo": "/logo/hackerrank-com-logo.png",
+    "issuer": "HackerRank",
+    "issueDate": "12 Sep, 2026",
+    "expiryDate": "",
+    "credentialId": "6B6FB9CF55A7",
+    "credentialUrl": "https://www.hackerrank.com/certificates/6b6fb9cf55a7",
+    "category": "Frontend Development",
+    "skills": [
+      "CSS",
+      "Cascading & Inheritance",
+      "Text Styling",
+      "CSS Layouts",
+      "Box Model"
+    ],
+    "description": "HackerRank certification covering CSS fundamentals including cascading, inheritance, layouts, and the box model.",
+    "featured": true
+  },
+  {
+    "id": "cert-10",
+    "title": "Problem Solving (Intermediate)",
+    "logo": "/logo/hackerrank-com-logo.png",
+    "issuer": "HackerRank",
+    "issueDate": "12 Sep, 2026",
+    "expiryDate": "",
+    "credentialId": "73D3A476A0A3",
+    "credentialUrl": "https://www.hackerrank.com/certificates/73d3a476a0a3",
+    "category": "Problem Solving & Data Structures",
+    "skills": [
+      "Problem Solving",
+      "Data Structures",
+      "HashMaps",
+      "Stacks",
+      "Queues",
+      "Algorithms"
+    ],
+    "description": "HackerRank certification covering intermediate data structures like HashMaps, Stacks, Queues, and algorithm optimization.",
+    "featured": true
+  },
+  {
+    "id": "cert-11",
+    "title": "CRUD Operations in MongoDB",
+    "logo": "/logo/MongoDB.png",
+    "issuer": "MongoDB",
+    "issueDate": "2026",
+    "expiryDate": "",
+    "credentialId": "98683756-0b28-406c-b73b-e317ea61ce0e",
+    "credentialUrl": "https://www.credly.com/badges/98683756-0b28-406c-b73b-e317ea61ce0e/public_url",
+    "category": "Database",
+    "skills": [
+      "MongoDB",
+      "CRUD Operations",
+      "Database Management"
+    ],
+    "description": "MongoDB skill badge demonstrating proficiency in executing database CRUD operations.",
+    "featured": true
+  },
+  {
+    "id": "cert-12",
+    "title": "MongoDB Indexing Design Fundamentals",
+    "logo": "/logo/MongoDB.png",
+    "issuer": "MongoDB",
+    "issueDate": "2026",
+    "expiryDate": "",
+    "credentialId": "ba67a55f-5c8a-4d51-ac4f-5ecb36f8d351",
+    "credentialUrl": "https://www.credly.com/badges/ba67a55f-5c8a-4d51-ac4f-5ecb36f8d351/public_url",
+    "category": "Database",
+    "skills": [
+      "MongoDB",
+      "Database Indexing",
+      "Design Fundamentals"
+    ],
+    "description": "MongoDB skill badge demonstrating knowledge of indexing design fundamentals.",
+    "featured": true
+  },
+  {
+    "id": "cert-13",
+    "title": "Manage Kubernetes in Google Cloud Skill Badge",
+    "logo": "/logo/Google.png",
+    "issuer": "Google Cloud",
+    "issueDate": "2026",
+    "expiryDate": "",
+    "credentialId": "5f8b754a-e549-4f32-a135-3f8110737e0d",
+    "credentialUrl": "https://www.credly.com/badges/5f8b754a-e549-4f32-a135-3f8110737e0d/public_url",
+    "category": "Cloud & Infrastructure",
+    "skills": [
+      "Google Cloud",
+      "Kubernetes",
+      "Cloud Infrastructure"
+    ],
+    "description": "Google Cloud skill badge demonstrating proficiency in managing Kubernetes environments.",
+    "featured": true
+  },
+  {
+    "id": "cert-14",
+    "title": "Build a Secure Google Cloud Network Skill Badge",
+    "logo": "/logo/Google.png",
+    "issuer": "Google Cloud",
+    "issueDate": "14 Sep, 2026",
+    "expiryDate": "",
+    "credentialId": "c8a8a38a-5cc2-4c85-a20c-feed6d4ae16f",
+    "credentialUrl": "https://www.credly.com/badges/c8a8a38a-5cc2-4c85-a20c-feed6d4ae16f/public_url",
+    "category": "Cloud & Infrastructure",
+    "skills": [
+      "Cloud Security",
+      "Networking",
+      "VPC Network"
+    ],
+    "description": "Google Cloud skill badge demonstrating proficiency in building secure cloud networks.",
+    "featured": true
+  },
+  {
+    "id": "cert-15",
+    "title": "Develop Serverless Applications on Cloud Run Skill Badge",
+    "logo": "/logo/Google.png",
+    "issuer": "Google Cloud",
+    "issueDate": "2026",
+    "expiryDate": "",
+    "credentialId": "7fca30f0-5bfe-448b-ad3e-043841598ded",
+    "credentialUrl": "https://www.credly.com/badges/7fca30f0-5bfe-448b-ad3e-043841598ded/public_url",
+    "category": "Cloud & Infrastructure",
+    "skills": [
+      "Cloud Build",
+      "Cloud Run",
+      "Cloud Storage",
+      "Containers",
+      "Docker",
+      "Firestore",
+      "Microservice",
+      "Pub/Sub",
+      "REST API",
+      "Serverless",
+      "Service Account"
+    ],
+    "description": "Google Cloud skill badge demonstrating skills in integrating Cloud Run with Cloud Storage, architecting asynchronous systems, and constructing REST APIs.",
+    "featured": true
+  },
+  {
+    "id": "cert-16",
+    "title": "Develop Serverless Apps with Firebase Skill Badge",
+    "logo": "/logo/Google.png",
+    "issuer": "Google Cloud",
+    "issueDate": "2026",
+    "expiryDate": "",
+    "credentialId": "34fd970a-977e-4f31-bd0b-3c50ca943407",
+    "credentialUrl": "https://www.credly.com/badges/34fd970a-977e-4f31-bd0b-3c50ca943407/public_url",
+    "category": "Cloud & Infrastructure",
+    "skills": [
+      "Cloud Build",
+      "Cloud Run",
+      "Firebase",
+      "Firestore",
+      "Google Assistant",
+      "REST API",
+      "Serverless"
+    ],
+    "description": "Google Cloud skill badge demonstrating skills in building serverless web applications using Firebase, Firestore, and Cloud Build.",
+    "featured": true
+  }
+]
