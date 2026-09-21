@@ -1,0 +1,197 @@
+[
+  {
+    "id": "redesign_001",
+    "slug": "nova-cloud-platform",
+    "title": "Nova Cloud Platform",
+    "client": "Nova Infrastructure Corp",
+    "year": 2026,
+    "category": "SaaS & Cloud",
+    "summary": "Transformed a cluttered 2018 multi-cloud console into a high-performance spatial observability dashboard.",
+    "problem": "Engineers were overwhelmed by 140+ nested menu items, 4.8s initial load times, and poor incident correlation during outages.",
+    "solution": "Designed a unified node canvas with sub-second WebSocket telemetry, keyboard command palette, and dark spatial aesthetics.",
+    "metrics": [
+      {
+        "label": "Incident Triage Time",
+        "value": "3.2m",
+        "delta": "-68%"
+      },
+      {
+        "label": "Daily Active Engineers",
+        "value": "45K+",
+        "delta": "+180%"
+      },
+      {
+        "label": "Lighthouse Score",
+        "value": "99/100",
+        "delta": "+42pts"
+      }
+    ],
+    "tools": [
+      "React",
+      "TypeScript",
+      "Tailwind CSS",
+      "Three.js",
+      "WebSockets"
+    ],
+    "beforeImage": {
+      "src": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=1400&q=80",
+      "alt": "Legacy complex table dashboard with cluttered navigation and dense data grids",
+      "label": "Legacy 2021 Console"
+    },
+    "afterImage": {
+      "src": "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?auto=format&fit=crop&w=1400&q=85",
+      "alt": "Modern dark luxury spatial observability dashboard with glowing metrics",
+      "label": "Redesigned 2026 Platform"
+    },
+    "links": {
+      "live": "https://example.com/nova-cloud",
+      "caseStudy": "/work/nova-cloud-platform"
+    }
+  },
+  {
+    "id": "redesign_002",
+    "slug": "apex-global-banking",
+    "title": "Apex Global Banking",
+    "client": "Apex Financial Group",
+    "year": 2026,
+    "category": "Fintech",
+    "summary": "Rebuilt a legacy institutional banking interface into an ultra-fast, dark luxury multi-currency treasury portal.",
+    "problem": "Corporate treasurers struggled with disconnected FX rate sheets, manual reconciliation lags, and high error rates in bulk wires.",
+    "solution": "Engineered a real-time reactive liquidity dashboard with instant wire verification, keyboard shortcuts, and biometrics.",
+    "metrics": [
+      {
+        "label": "Checkout & Wire Speed",
+        "value": "0.8s",
+        "delta": "-82%"
+      },
+      {
+        "label": "Reconciliation Volume",
+        "value": "$2.4B/mo",
+        "delta": "+220%"
+      },
+      {
+        "label": "Support Tickets",
+        "value": "120/wk",
+        "delta": "-54%"
+      }
+    ],
+    "tools": [
+      "React",
+      "TypeScript",
+      "Tailwind CSS",
+      "D3.js",
+      "Radix UI"
+    ],
+    "beforeImage": {
+      "src": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=1400&q=80",
+      "alt": "Outdated legacy spreadsheet and generic financial charts interface",
+      "label": "Legacy Banking UI"
+    },
+    "afterImage": {
+      "src": "https://images.unsplash.com/photo-1642543492481-44e81e3914a7?auto=format&fit=crop&w=1400&q=85",
+      "alt": "Sleek dark gold and amber institutional treasury workstation",
+      "label": "Redesigned Apex Terminal"
+    },
+    "links": {
+      "live": "https://example.com/apex-banking",
+      "caseStudy": "/work/apex-global-banking"
+    }
+  },
+  {
+    "id": "redesign_003",
+    "slug": "nordic-living-storefront",
+    "title": "Nordic Living Storefront",
+    "client": "Nordic Craft Studios",
+    "year": 2026,
+    "category": "E-Commerce",
+    "summary": "Elevated a cookie-cutter Shopify template into an immersive, editorial Scandinavian architectural storefront.",
+    "problem": "Generic square product grids destroyed brand equity and had high cart abandonment due to cluttered checkout steps.",
+    "solution": "Implemented smooth GSAP shared-element transitions, tactile product configurators, and an invisible slide-out cart.",
+    "metrics": [
+      {
+        "label": "E-commerce Conversion",
+        "value": "4.8%",
+        "delta": "+140%"
+      },
+      {
+        "label": "Average Order Value",
+        "value": "$420",
+        "delta": "+65%"
+      },
+      {
+        "label": "Mobile Bounce Rate",
+        "value": "22%",
+        "delta": "-48%"
+      }
+    ],
+    "tools": [
+      "React",
+      "GSAP Flip",
+      "Shopify Storefront",
+      "Tailwind CSS"
+    ],
+    "beforeImage": {
+      "src": "https://images.unsplash.com/photo-1522335789203-aabd1fc54bc9?auto=format&fit=crop&w=1400&q=80",
+      "alt": "Standard generic e-commerce template product grid",
+      "label": "Legacy Generic Template"
+    },
+    "afterImage": {
+      "src": "https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?auto=format&fit=crop&w=1400&q=85",
+      "alt": "Architectural editorial lighting and sculptural furniture showcase",
+      "label": "Redesigned Editorial Store"
+    },
+    "links": {
+      "live": "https://example.com/nordic-living",
+      "caseStudy": "/work/nordic-living-storefront"
+    }
+  },
+  {
+    "id": "redesign_004",
+    "slug": "pulse-health-portal",
+    "title": "Pulse Health Portal",
+    "client": "Pulse MedTech Care",
+    "year": 2026,
+    "category": "HealthTech",
+    "summary": "Replaced a high-friction clinical hospital portal with a reassuring, accessibility-first telehealth platform.",
+    "problem": "Elderly and anxious patients experienced high abandonment during consultation booking and lab report reviews.",
+    "solution": "Redesigned the patient journey with conversational scheduling, large high-contrast typography, and 100% WCAG AAA conformance.",
+    "metrics": [
+      {
+        "label": "Booking Completion",
+        "value": "91%",
+        "delta": "+165%"
+      },
+      {
+        "label": "Onboarding Dropoff",
+        "value": "6%",
+        "delta": "-62%"
+      },
+      {
+        "label": "Accessibility Rating",
+        "value": "WCAG AAA",
+        "delta": "100%"
+      }
+    ],
+    "tools": [
+      "React",
+      "TypeScript",
+      "Tailwind CSS",
+      "WebRTC",
+      "Radix UI"
+    ],
+    "beforeImage": {
+      "src": "https://images.unsplash.com/photo-1504813184591-01572f98c85f?auto=format&fit=crop&w=1400&q=80",
+      "alt": "Crowded clinical software tables and complex medical menus",
+      "label": "Legacy Hospital Portal"
+    },
+    "afterImage": {
+      "src": "https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?auto=format&fit=crop&w=1400&q=85",
+      "alt": "Calming clean diagnostic workspace with soft lighting",
+      "label": "Redesigned Pulse Portal"
+    },
+    "links": {
+      "live": "https://example.com/pulse-health",
+      "caseStudy": "/work/pulse-health-portal"
+    }
+  }
+]
