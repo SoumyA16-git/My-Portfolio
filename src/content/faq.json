@@ -1,0 +1,60 @@
+{
+  "sectionBadge": "Why Choose Us",
+  "sectionTitle": "Why Choose Us.",
+  "sectionSubtitle": "Engineering with Taste. Built to Convert.",
+  "sectionDescription": "Bridging the gap between high-end visual design and rigorous frontend engineering. No cookie-cutter templates, no bloated page builders — just bespoke, lightning-fast digital experiences.",
+  "stats": [
+    {
+      "value": "100%",
+      "label": "Custom Bespoke Code"
+    },
+    {
+      "value": "99+",
+      "label": "Lighthouse Score"
+    },
+    {
+      "value": "2-4 Wks",
+      "label": "Average Turnaround"
+    },
+    {
+      "value": "Direct",
+      "label": "Senior Collaboration"
+    }
+  ],
+  "cta": {
+    "label": "Start A Conversation",
+    "href": "#contact"
+  },
+  "faqs": [
+    {
+      "id": 1,
+      "category": "Timeline",
+      "question": "What is your typical project timeline and turnaround?",
+      "answer": "Most bespoke websites and redesigns are completed within 2 to 4 weeks from kickoff to production launch. Because you work directly with me without agency account layers, decisions and iterations happen in hours rather than weeks."
+    },
+    {
+      "id": 2,
+      "category": "Workflow",
+      "question": "How does your design-to-code process operate?",
+      "answer": "We begin with collaborative Figma prototypes to calibrate typography, spatial rhythm, and motion direction. Once approved, I translate every frame into clean React 19, TypeScript, and modern CSS with 60fps micro-animations and zero layout shift."
+    },
+    {
+      "id": 3,
+      "category": "Performance",
+      "question": "Do you guarantee 100/100 Lighthouse performance & SEO?",
+      "answer": "Yes. Every site is engineered around strict Core Web Vitals standards — zero bloated scripts, hardware-accelerated transforms, optimized next-gen WebP assets, and semantic JSON-LD structured data for maximal search visibility."
+    },
+    {
+      "id": 4,
+      "category": "Pricing",
+      "question": "What pricing structures and engagement models do you offer?",
+      "answer": "I offer transparent, fixed-scope project pricing with clear milestone deliverables, as well as dedicated monthly retainers for fast-moving businesses requiring continuous design engineering and feature development."
+    },
+    {
+      "id": 5,
+      "category": "Warranty",
+      "question": "What support is included after the project is launched?",
+      "answer": "Every launch comes with 30 days of complimentary post-launch warranty covering any adjustments, domain configuration, analytics tracking verification, and detailed documentation so you have complete ownership."
+    }
+  ]
+}
