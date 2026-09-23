@@ -1,0 +1,18 @@
+# =============================================================================
+# Cloudflare Pages — Redirects & SPA Fallback
+# daswebsolutions.me
+# =============================================================================
+
+# ---------------------------------------------------------------------------
+# www → non-www canonical redirect
+# Forces all traffic to the apex domain (daswebsolutions.me)
+# ---------------------------------------------------------------------------
+https://www.daswebsolutions.me/* https://daswebsolutions.me/:splat 301
+
+# ---------------------------------------------------------------------------
+# SPA Fallback — React Router handles all client-side routing.
+# Without this, a direct hit to /work/aurora-finance returns 404 from CDN.
+# This serves index.html for every route and lets React Router take over.
+# MUST be the last rule.
+# ---------------------------------------------------------------------------
+/* /index.html 200

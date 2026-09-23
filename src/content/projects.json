@@ -1,0 +1,232 @@
+[
+  {
+    "id": "prj_001",
+    "slug": "guardian-bot",
+    "status": "published",
+    "order": 1,
+    "title": "Guardian Bot",
+    "year": 2025,
+    "category": "Security & Automation",
+    "tools": [
+      "React",
+      "Node.js",
+      "Tailwind CSS"
+    ],
+    "summary": "A Discord anti-spam bot that detects compromised accounts, neutralizes phishing links, and stops raid attacks in real-time.",
+    "links": {
+      "live": "https://guardian.daswebsolutions.me/"
+    },
+    "images": {
+      "thumbnail": {
+        "src": "/work/guardian_bot.png"
+      }
+    }
+  },
+  {
+    "id": "prj_002",
+    "slug": "sanamahi-graphix-erp",
+    "status": "published",
+    "order": 2,
+    "title": "Sanamahi Graphix ERP",
+    "year": 2026,
+    "category": "ERP & Operations",
+    "tools": [
+      "React",
+      "Node.js",
+      "Tailwind CSS"
+    ],
+    "summary": "Real-time overview of commercial orders, live production queues, artwork approvals, and receivables.",
+    "links": {
+      "live": "https://erp.sanamahi.in/dashboard"
+    },
+    "images": {
+      "thumbnail": {
+        "src": "/work/erp_sanamahi.png"
+      }
+    }
+  },
+  {
+    "id": "prj_003",
+    "slug": "loishang",
+    "status": "published",
+    "order": 3,
+    "title": "Loishang",
+    "year": 2026,
+    "category": "E-commerce & Services",
+    "tools": [
+      "React",
+      "Node.js",
+      "Tailwind CSS"
+    ],
+    "summary": "India's trusted ID card printing service allowing organizations to collect member details online and receive printed PVC cards delivered to their door.",
+    "links": {
+      "live": "https://loishang.com/"
+    },
+    "images": {
+      "thumbnail": {
+        "src": "/work/loishang.png"
+      }
+    }
+  },
+  {
+    "id": "prj_004",
+    "slug": "ashish-kumar",
+    "status": "published",
+    "order": 4,
+    "title": "Ashish Kumar",
+    "year": 2024,
+    "category": "Portfolio & Personal",
+    "tools": [
+      "React",
+      "Next.js",
+      "Tailwind CSS"
+    ],
+    "summary": "Engineering luxury digital experiences with a modern Indian craftsmanship.",
+    "links": {
+      "live": "https://vercel.com/soumyaranjanbaroda-5028s-projects/ashish-kumar"
+    },
+    "images": {
+      "thumbnail": {
+        "src": "/work/ashish.png"
+      }
+    }
+  },
+  {
+    "id": "prj_005",
+    "slug": "911-verification-bot",
+    "status": "published",
+    "order": 5,
+    "title": "911 - Verification BOT",
+    "year": 2026,
+    "category": "Security & Automation",
+    "tools": [
+      "React",
+      "Next.js",
+      "Tailwind CSS"
+    ],
+    "summary": "Authenticate members via Discord OAuth2, assign roles in 0.4s, and eliminate raids, alts, and bots with cryptographic session security.",
+    "links": {
+      "live": "https://discord-verification-bot-xi.vercel.app/"
+    },
+    "images": {
+      "thumbnail": {
+        "src": "/work/dis_very.png"
+      }
+    }
+  },
+  {
+    "id": "prj_006",
+    "slug": "maans-dental-clinic",
+    "status": "published",
+    "order": 6,
+    "title": "Dr. MaAn's Superspeciality Dental & Implant Clinic",
+    "year": 2025,
+    "category": "Healthcare & Medical",
+    "tools": [
+      "React",
+      "Node.js",
+      "Tailwind CSS"
+    ],
+    "summary": "Transforming smiles through modern technology, expert care, and a gentle, pain-free approach.",
+    "links": {
+      "live": "https://maansdentalclinic.com/"
+    },
+    "images": {
+      "thumbnail": {
+        "src": "/work/maans.png"
+      }
+    }
+  },
+  {
+    "id": "prj_007",
+    "slug": "san-francisco-dental-office",
+    "status": "published",
+    "order": 7,
+    "title": "San Francisco Dental Office",
+    "year": 2026,
+    "category": "Healthcare & Medical",
+    "tools": [
+      "React",
+      "Node.js",
+      "Tailwind CSS"
+    ],
+    "summary": "A friendly, professional dental office serving patients in Huntington Park with thoughtful care and a personal approach.",
+    "links": {
+      "live": "https://san-francisco-dental-office.pages.dev/"
+    },
+    "images": {
+      "thumbnail": {
+        "src": "/work/sfdo.png"
+      }
+    }
+  },
+  {
+    "id": "prj_008",
+    "slug": "sama-elite-dental-center",
+    "status": "published",
+    "order": 8,
+    "title": "Sama Elite Dental Center",
+    "year": 2026,
+    "category": "Healthcare & Medical",
+    "tools": [
+      "React",
+      "Node.js",
+      "Tailwind CSS"
+    ],
+    "summary": "A multidisciplinary dental center in Kuwait focused on thoughtful treatment, experienced clinicians, and an elevated patient experience.",
+    "links": {
+      "live": "https://sama-elite-dental-center.pages.dev/"
+    },
+    "images": {
+      "thumbnail": {
+        "src": "/work/sedc.png"
+      }
+    }
+  },
+  {
+    "id": "prj_009",
+    "slug": "blue-well-dental-clinic",
+    "status": "published",
+    "order": 9,
+    "title": "Blue Well Dental Clinic",
+    "year": 2026,
+    "category": "Healthcare & Medical",
+    "tools": [
+      "React",
+      "Node.js",
+      "Tailwind CSS"
+    ],
+    "summary": "Modern dental treatment, experienced doctors and a caring approach for patients of all ages in Lingipur.",
+    "links": {
+      "live": "https://blue-well-dental-clinic.pages.dev/"
+    },
+    "images": {
+      "thumbnail": {
+        "src": "/work/bdc.png"
+      }
+    }
+  },
+  {
+    "id": "prj_010",
+    "slug": "b-tech-repairwala",
+    "status": "published",
+    "order": 10,
+    "title": "B-Tech Repair",
+    "year": 2026,
+    "category": "Services & Repair",
+    "tools": [
+      "React",
+      "Node.js",
+      "Tailwind CSS"
+    ],
+    "summary": "AC, refrigerator, washing machine and microwave repair & service across Bhubaneswar and nearby areas.",
+    "links": {
+      "live": "https://b-techrepairwala.pages.dev/"
+    },
+    "images": {
+      "thumbnail": {
+        "src": "/work/betchwala.png"
+      }
+    }
+  }
+]

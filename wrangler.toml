@@ -1,0 +1,19 @@
+# =============================================================================
+# Cloudflare Pages — Build & Deployment Configuration
+# daswebsolutions.me | Soumya Ranjan Das Portfolio
+# =============================================================================
+
+name = "soumyadas-portfolio"
+compatibility_date = "2024-09-23"
+
+# ---------------------------------------------------------------------------
+# Pages Build Configuration
+# ---------------------------------------------------------------------------
+[env.production]
+name = "soumyadas-portfolio"
+
+# Cloudflare Pages reads these from the dashboard settings,
+# but documenting them here for clarity:
+# Build command : npm run build
+# Build output  : dist
+# Root dir      : /
